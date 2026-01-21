@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(168,85,247);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(139,92,246);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(59,130,246);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded rectangle background -->
+  <rect width="64" height="64" rx="12" fill="url(#grad)"/>
+  
+  <!-- Letters MF -->
+  <text x="32" y="45" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">MF</text>
+</svg>
