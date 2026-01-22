@@ -6,25 +6,25 @@ const Services = () => {
     {
       icon: Globe,
       title: "Web Development",
-      description: "Creating responsive and modern web applications with React and Tailwind CSS. Building clean, user-friendly interfaces that work seamlessly across all devices.",
+      description: "Building responsive and production-ready web applications using React and Tailwind CSS, with a strong focus on clean UI and performance.",
       skills: ["React", "JavaScript", "Tailwind CSS", "Responsive Design"]
     },
     {
       icon: Code2,
       title: "Backend Development",
-      description: "Developing server-side logic and APIs using Python. Working with MySQL databases to store and manage data efficiently.",
+      description: "Building robust server-side logic and APIs using Django and Python. Experience with Firebase and MySQL for efficient data management.",
       skills: ["Python", "MySQL", "REST APIs", "Database Design"]
     },
     {
       icon: Smartphone,
       title: "Mobile Applications",
-      description: "Building mobile apps that provide great user experiences. Learning to develop for both Android and iOS platforms.",
+      description: "Developing cross-platform mobile applications using React Native. Focused on creating smooth, native-like user experiences for Android and iOS.",
       skills: ["Mobile UI", "Cross-platform", "User Experience"]
     },
     {
       icon: Wrench,
       title: "Problem Solving",
-      description: "Debugging code, optimizing performance, and finding creative solutions to technical challenges. Always eager to learn new approaches.",
+      description: "Solving complex technical challenges through efficient debugging and logical thinking. Committed to writing clean, maintainable code.",
       skills: ["Debugging", "Testing", "Git", "Code Review"]
     },
   ];

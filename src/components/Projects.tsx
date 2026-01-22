@@ -39,7 +39,8 @@ const Projects = () => {
       image: project1a,
       gallery: [project1a, project1b, project1c],
       link: "https://github.com/farhancalicut/fortexeducation.git",
-      featured: true
+      featured: true,
+      roleLine: "Full Stack Developer | Next.js, Firebase | Educational Platform"
     },
     {
       title: "PUSahityotsav",
@@ -49,7 +50,8 @@ const Projects = () => {
       image: project2a,
       gallery: [project2a, project2b],
       link: "https://github.com/farhancalicut/pusahityotsav-website.git",
-      featured: true
+      featured: true,
+      roleLine: "Full Stack Developer | React, Node.js | Used by 500+ Users"
     },
     {
       title: "PU NSS Connect",
@@ -59,7 +61,8 @@ const Projects = () => {
       image: project3,
       gallery: [project3],
       link: "https://github.com/farhancalicut/pu_blood_connect.git",
-      featured: false
+      featured: false,
+      roleLine: "Mobile Developer | React Native, Firebase"
     },
     {
       title: "Intelligent Dust Detection & Hardware Monitoring",
@@ -69,7 +72,8 @@ const Projects = () => {
       image: project4,
       gallery: [project4],
       link: "https://github.com/farhancalicut/Intelligent-Dust-Detection-and-Hardware-Monitoring-System-Using-ML-and-CV.git",
-      featured: false
+      featured: false,
+      roleLine: "ML Engineer | Python, Computer Vision | Research Project"
     },
     {
       title: "Reserva Turf",
@@ -79,7 +83,8 @@ const Projects = () => {
       image: project5,
       gallery: [project5],
       link: "https://github.com/farhancalicut/reserva.git",
-      featured: false
+      featured: false,
+      roleLine: "Full Stack Developer | React, Web App | Booking System"
     },
     {
       title: "Beautynad",
@@ -89,7 +94,8 @@ const Projects = () => {
       image: project6,
       gallery: [project6],
       link: "https://github.com/farhancalicut/beautinad.git",
-      featured: false
+      featured: false,
+      roleLine: "Frontend Developer | React, E-commerce"
     },
   ];
 
@@ -145,7 +151,8 @@ const Projects = () => {
 
               {/* Content */}
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{project.title}</h3>
+                <h3 className="text-xl font-bold mb-1 group-hover:text-primary transition-colors">{project.title}</h3>
+                <p className="text-sm font-medium text-purple-300/90 mb-3">{project.roleLine}</p>
                 <p className="text-muted-foreground mb-6 flex-grow line-clamp-3">{project.description}</p>
                 <div className="flex gap-4 mt-auto">
                   <Button

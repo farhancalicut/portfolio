@@ -63,7 +63,7 @@ const Contact = () => {
             Get In <span className="gradient-text">Touch</span>
           </motion.h2>
           <p className="text-muted-foreground mb-8">
-            I'm currently seeking internship opportunities. Feel free to reach out!
+            Open to internships, freelance, and entry-level opportunities. Feel free to reach out!
           </p>
 
           <div className="flex justify-center gap-6 mb-12">

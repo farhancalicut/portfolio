@@ -45,14 +45,13 @@ const About = () => {
             </h2>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I am a recent MCA graduate from Pondicherry University with a strong foundation in computer science application.
-              While I have explored Machine Learning during my academic projects, my true passion lies in **building real-world applications**.
+              I am an MCA graduate from Pondicherry University with hands-on experience in building and deploying real-world web and mobile applications.
+              I have developed production-ready platforms using React, React Native, Django, and Firebase, including a live event management system used in a real university event.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I recently developed and hosted a **live event management application** that was successfully used in a real event.
-              This experience taught me the value of efficient coding and delivering reliable software under deadlines.
-              I am now looking for an internship to apply my skills and grow as a Full Stack Developer.
+              I enjoy building clean user interfaces, solving real problems, and continuously improving my development skills.
+              I am currently seeking an internship or entry-level role as a Web or Mobile Developer.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-4">

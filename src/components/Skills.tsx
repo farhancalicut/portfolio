@@ -1,4 +1,4 @@
-import { Code2, Palette, Database, Server, Boxes, Terminal, Layers, Sparkles } from "lucide-react";
+import { Code2, Palette, Database, Server, Boxes, Terminal, Layers, Sparkles, Flame, Globe } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Skills = () => {
@@ -11,6 +11,9 @@ const Skills = () => {
     { name: "Python", icon: Terminal, color: "text-blue-300" },
     { name: "MySQL", icon: Database, color: "text-indigo-400" },
     { name: "React Native", icon: Boxes, color: "text-purple-400" },
+    { name: "Django", icon: Server, color: "text-green-600" },
+    { name: "Firebase", icon: Flame, color: "text-orange-500" },
+    { name: "REST APIs", icon: Globe, color: "text-blue-500" },
   ];
 
   return (

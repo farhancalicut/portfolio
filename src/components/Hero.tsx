@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -26,7 +26,7 @@ const Hero = () => {
           </h1>
 
           <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground mb-8">
-            MCA Graduate. <span className="text-foreground">Aspiring Full Stack Developer</span> & Learner.
+            <span className="text-foreground">Web & Mobile Developer</span> | React • React Native • Django
           </h2>
 
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-10 leading-relaxed">
@@ -41,6 +41,11 @@ const Hero = () => {
             </Button>
             <Button variant="outline" size="lg" className="min-w-[160px] h-12 rounded-full border-white/10 hover:bg-white/5">
               <a href="#contact">Contact Me</a>
+            </Button>
+            <Button variant="outline" size="lg" className="min-w-[160px] h-12 rounded-full border-white/10 hover:bg-white/5">
+              <a href="/resume.pdf" download target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                Download Resume (PDF) <Download className="w-4 h-4" />
+              </a>
             </Button>
           </div>
 
